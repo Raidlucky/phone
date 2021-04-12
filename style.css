@@ -347,6 +347,7 @@ i.fas.fa-arrow-alt-circle-up {
     background-color: #fff0;
     border: none;
     outline: none;
+    width: 160px
 }
 
 i.fas.fa-chevron-left {
@@ -492,4 +493,62 @@ i.fas.fa-plus-square {
     border-radius: 10px;
     padding: 5px;
     margin-left: 70px;
+}
+
+/* Google Page */
+
+.google-nav {
+    font-family: Roboto, Helvetica Neue, Arial,sans-serif;
+    height: 50px;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+i.fas.fa-bars {
+margin-left: 10px;
+margin-right: 10px;
+color: #5f5e5e;
+font-size: 18px;
+margin-top: 15px;
+}
+
+i.fas.fa-th {
+    color: #5f5e5e;
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.selected-nav {
+    color:rgb(74, 121, 221);
+    text-decoration: none;
+    border-bottom: solid 2px rgb(74, 121, 221);
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-item {
+    color: #72727c;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.google-img {
+    width: 30px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.google-search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
