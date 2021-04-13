@@ -456,28 +456,28 @@ background-color: rgb(226, 221, 221);
 }
 
 i.fas.fa-exchange-alt {
-    color: springgreen;
+    color: #00C244;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
 }
 
 i.fab.fa-bitcoin {
-    color: springgreen;
+    color: #00C244;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
 }
 
 i.fas.fa-grip-lines {
-    color: springgreen;
+    color: #00C244;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
 }
 
 i.fas.fa-plus-square {
-    color: springgreen;
+    color: #00C244;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 20px;
@@ -504,6 +504,12 @@ i.fas.fa-plus-square {
     margin-right: auto;
     width: 270px;
     margin-top: 35px;
+    color: #5f5e5e;
+    text-align: center;
+}
+
+.cash-header {
+    color: black;
 }
 
 .info-left {
@@ -511,25 +517,9 @@ i.fas.fa-plus-square {
     margin-right: 25px;
 }
 
-.info-left, h4, p {
-text-align: center;
-}
-
-.info-left > p {
-    color: #5f5e5e;
-}
-
-.info-right > p {
-    color: #5f5e5e;
-}
-
 .info-right {
     display: inline-block;
     margin-left: 25px;
-}
-
-.info-right, h4, p {
-    text-align: center;
 }
 
 /* Google Page */
