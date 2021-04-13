@@ -607,6 +607,8 @@ margin-left: 5px;
     border-radius: 8px 8px 0px 0px;
 }
 
+/* Spotify Page */
+
 .spotify {
     display: flex;
     flex-direction: column;
@@ -659,3 +661,107 @@ i.fab.fa-spotify {
 .login-option:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Rogue Page */
+
+.rogue-top {
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+}
+
+.rogue-top > h3 {
+    margin: 0px;
+}
+
+.rogue {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.workout-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rogue-background {
+    position: absolute;
+    width: 375px;
+    z-index: 1;
+    filter: grayscale(50%);
+}
+
+.rogue-challenge {
+z-index: 2;
+color: white;
+width: 250px;
+text-align: center;
+}
+
+.rogue-date {
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+.rogue-button {
+    z-index: 2;
+    color: white;
+    background-color: #333;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.rogue-container {
+    margin: 0px;
+    width: none;
+    height: none;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fff0;
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(103, 97, 97, 0.5);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(82, 78, 78, 0.6);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+  }
