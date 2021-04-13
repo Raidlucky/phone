@@ -404,7 +404,7 @@ i.fas.fa-chevron-left {
 }
 
 .sidebar {
-    margin-top: 40px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -503,7 +503,7 @@ i.fas.fa-plus-square {
     margin-left: auto;
     margin-right: auto;
     width: 270px;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .info-left {
