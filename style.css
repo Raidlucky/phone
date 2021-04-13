@@ -636,6 +636,7 @@ margin-left: auto;
 margin-right: auto;
 font-size: 15px;
 font-weight: 500;
+transition: ease 0.3s all;
 }
 
 .login-logo {
@@ -653,4 +654,8 @@ i.fab.fa-spotify {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.login-option:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
