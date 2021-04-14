@@ -251,6 +251,9 @@ a::selection {
 .contact-img {
     border-radius: 50%;
     margin: 5px;
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .contact-name {
@@ -296,6 +299,7 @@ i.fas.fa-chevron-right {
     margin-right: 155.5px;
     margin-left: 155.5px;
     margin-top: 5px;
+    object-fit: cover;
 }
 
 .msg-left-div {
@@ -591,6 +595,8 @@ i.fas.fa-th {
     border: none;
     outline: none;
     margin-left: 5px;
+    font-size: 13px;
+    font-family: 'Roboto';
 }
 
 i.fas.fa-search {
