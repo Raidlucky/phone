@@ -626,6 +626,21 @@ a, i.fas.fa-search {
     width: 300px;
 }
 
+.info-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.news-logo {
+    width: 20px;
+    display: inline-block;
+}
+
+.news-author {
+    display: inline-block;
+}
+
 .information, h4, p {
 margin: 0px;
 margin-top: 2px;
