@@ -20,7 +20,7 @@ body {
     position: relative;
     background-image: url(image/wallpaper.png);
     background-size: cover;
-    background-position: middle;
+    background-position: center;
     margin-top: 5px;
 }
 
